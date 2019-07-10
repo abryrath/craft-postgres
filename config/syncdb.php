@@ -20,13 +20,13 @@ use unionco\craftsyncdb\services\CpService;
     ],
     'remotes' => [
         'production' => [
-            'username' => 'user',
-            'host' => 'example.com',
-            'root' => '/path/to/project/',
-            'backupDirectory' => '/path/to/project/storage/backups/databases/',
+            'username' => 'abry',
+            'host' => 'abryrath.com',
+            'root' => '/home/abry/Sites/craft-postgres/',
+            'backupDirectory' => '/home/abry/Sites/craft-postgres/storage/backups/databases/',
             'port' => 22,
             'phpPath' => '/usr/local/bin/php',
-            'mysqlDumpPath' => '/usr/bin/mysqldump',
+            'dbDumpClientPath' => '/usr/bin/mysqldump',
             // See Symfony\Component\Console\Output\Output for verbosity options
             'verbosity' => Output::VERBOSITY_DEBUG,
             'environment' => CpService::ENV_PRODUCTION,
