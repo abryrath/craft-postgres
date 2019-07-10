@@ -1,35 +1,34 @@
 {
-  "require": {
-    "craftcms/cms": "^3.0.0",
-    "unionco/craft-sync-db": "@dev",
-    "unionco/syncdb": "@dev",
-    "vlucas/phpdotenv": "^2.4.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "modules\\": "modules/"
-    }
-  },
-  "config": {
-    "sort-packages": true,
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "7.0"
-    }
-  },
-  "scripts": {
-    "post-root-package-install": [
-      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "unionco/craft-sync-db": "@dev",
+        "unionco/syncdb": "@dev",
+        "vlucas/phpdotenv": "^2.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "modules\\": "modules/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+    "repositories": [{
+            "type": "path",
+            "url": "../../Library/craft-sync-db"
+        },
+        {
+            "type": "path",
+            "url": "../../Library/syncdb"
+        }
     ]
-  },
-  "repositories": [
-	{
-		"type": "path",
-		"url": "../../Library/craft-sync-db"
-	},
-	{
-		"type": "path",
-		"url": "../../Library/syncdb"
-	}
-  ]
 }

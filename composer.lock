@@ -2645,7 +2645,7 @@
                 "craftcms/cms": "^3.0.0-RC1",
                 "monolog/monolog": "^1.24",
                 "scrivo/highlight.php": "v9.15.6.1",
-                "unionco/syncdb": "^0.6.1"
+                "unionco/syncdb": "@dev"
             },
             "require-dev": {
                 "vimeo/psalm": "^3.0"
@@ -2691,17 +2691,11 @@
         },
         {
             "name": "unionco/syncdb",
-            "version": "v0.6.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/unionco/syncdb.git",
-                "reference": "e62f21dbb9a79f591f0b57459a0bae97381bb121"
-            },
+            "version": "dev-feature/psql",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/unionco/syncdb/zipball/e62f21dbb9a79f591f0b57459a0bae97381bb121",
-                "reference": "e62f21dbb9a79f591f0b57459a0bae97381bb121",
-                "shasum": ""
+                "type": "path",
+                "url": "../../Library/syncdb",
+                "reference": "e62f21dbb9a79f591f0b57459a0bae97381bb121"
             },
             "require": {
                 "symfony/console": "^4.2||^3.0",
@@ -2716,7 +2710,6 @@
                     "unionco\\syncdb\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2726,8 +2719,7 @@
                     "email": "unionco@gmail.com"
                 }
             ],
-            "description": "Library to assist with syncing databases across different environments",
-            "time": "2019-07-08T15:30:51+00:00"
+            "description": "Library to assist with syncing databases across different environments"
         },
         {
             "name": "vlucas/phpdotenv",
