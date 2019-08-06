@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7549d0a87e56dd441fe19b4aad3ef240",
+    "content-hash": "858fae381d630928b51d037a718f1d5c",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -323,22 +323,22 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.1.33",
+            "version": "3.2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "403d21b8bf65567fd1df391981dfd3e9548dd4b2"
+                "reference": "e44b9d1b6dd94198d71825345c3ba437d2fd1e91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/403d21b8bf65567fd1df391981dfd3e9548dd4b2",
-                "reference": "403d21b8bf65567fd1df391981dfd3e9548dd4b2",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/e44b9d1b6dd94198d71825345c3ba437d2fd1e91",
+                "reference": "e44b9d1b6dd94198d71825345c3ba437d2fd1e91",
                 "shasum": ""
             },
             "require": {
                 "composer/composer": "1.6.3",
                 "craftcms/oauth2-craftid": "~1.0.0",
-                "craftcms/plugin-installer": "~1.5.0",
+                "craftcms/plugin-installer": "~1.5.3",
                 "craftcms/server-check": "~1.1.0",
                 "creocoder/yii2-nested-sets": "~0.9.0",
                 "danielstjules/stringy": "^3.1.0",
@@ -380,10 +380,13 @@
                 "bower-asset/yii2-pjax": "~2.0.1"
             },
             "require-dev": {
-                "codeception/codeception": "^2.4",
-                "codeception/mockery-module": "~0.2.2",
-                "codeception/specify": "~0.4.6",
-                "codeception/verify": "~0.3.3"
+                "codeception/codeception": "^3.0",
+                "codeception/mockery-module": "^0.3",
+                "codeception/specify": "^0.4",
+                "codeception/verify": "^1.0",
+                "fzaninotto/faker": "^1.8",
+                "league/factory-muffin": "^3.0",
+                "vlucas/phpdotenv": "^3.0"
             },
             "suggest": {
                 "ext-iconv": "Adds support for more character encodings than PHP’s built-in mb_convert_encoding() function, which Craft will take advantage of when converting strings to UTF-8.",
@@ -407,7 +410,7 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2019-07-02T17:38:39+00:00"
+            "time": "2019-07-19T19:56:35+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -693,16 +696,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.9",
+            "version": "2.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "128cc721d771ec2c46ce59698f4ca42b73f71b25"
+                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/128cc721d771ec2c46ce59698f4ca42b73f71b25",
-                "reference": "128cc721d771ec2c46ce59698f4ca42b73f71b25",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
+                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
                 "shasum": ""
             },
             "require": {
@@ -712,7 +715,8 @@
             "require-dev": {
                 "dominicsayers/isemail": "dev-master",
                 "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
-                "satooshi/php-coveralls": "^1.0.1"
+                "satooshi/php-coveralls": "^1.0.1",
+                "symfony/phpunit-bridge": "^4.4@dev"
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -746,7 +750,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-06-23T10:14:27+00:00"
+            "time": "2019-07-19T20:52:08+00:00"
         },
         {
             "name": "elvanto/litemoji",
@@ -825,23 +829,23 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.10.0",
+            "version": "v4.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "d85d39da4576a6934b72480be6978fb10c860021"
+                "reference": "83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d85d39da4576a6934b72480be6978fb10c860021",
-                "reference": "d85d39da4576a6934b72480be6978fb10c860021",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
+                "reference": "83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
             },
             "require-dev": {
-                "simpletest/simpletest": "^1.1"
+                "simpletest/simpletest": "dev-master#72de02a7b80c6bb8864ef9bf66d41d2f58f826bd"
             },
             "type": "library",
             "autoload": {
@@ -854,7 +858,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -868,7 +872,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2018-02-23T01:58:20+00:00"
+            "time": "2019-07-14T18:58:38+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2635,11 +2639,17 @@
         },
         {
             "name": "unionco/craft-sync-db",
-            "version": "dev-master",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unionco/craft-sync-db.git",
+                "reference": "3bebf9163e57969e66514035f74385b11d658de4"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../Library/craft-sync-db",
-                "reference": "8ebc684bd6973463223a186558a9aaec7ceaf32d"
+                "type": "zip",
+                "url": "https://api.github.com/repos/unionco/craft-sync-db/zipball/3bebf9163e57969e66514035f74385b11d658de4",
+                "reference": "3bebf9163e57969e66514035f74385b11d658de4",
+                "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^3.0.0-RC1",
@@ -2667,6 +2677,7 @@
                     "unionco\\craftsyncdb\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2678,24 +2689,21 @@
             ],
             "description": "Craft 3 plugin to sync database across environments",
             "keywords": [
+                "Craft",
                 "cms",
-                "craft",
                 "craft-plugin",
                 "craft-sync-db",
                 "craftcms"
             ],
-            "support": {
-                "docs": "https://github.com/unionco/craft-sync-db",
-                "issues": "https://github.com/unionco/craft-sync-db"
-            }
+            "time": "2019-07-11T19:12:22+00:00"
         },
         {
             "name": "unionco/syncdb",
-            "version": "dev-feature/psql",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../Library/syncdb",
-                "reference": "e62f21dbb9a79f591f0b57459a0bae97381bb121"
+                "reference": "29a7c52d7ada643692ac76dd161cedb4f9fa4fe5"
             },
             "require": {
                 "symfony/console": "^4.2||^3.0",
@@ -2924,23 +2932,24 @@
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534"
+                "reference": "5c7ca9836cf80b34db265332a7f2f8438eb469b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/1439e78be1218c492e6cde251ed87d3f128b9534",
-                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/5c7ca9836cf80b34db265332a7f2f8438eb469b9",
+                "reference": "5c7ca9836cf80b34db265332a7f2f8438eb469b9",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0"
             },
             "require-dev": {
-                "composer/composer": "^1.0"
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": "<7"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2974,7 +2983,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2018-07-05T15:44:47+00:00"
+            "time": "2019-07-16T13:22:30+00:00"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -3326,7 +3335,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "unionco/craft-sync-db": 20,
         "unionco/syncdb": 20
     },
     "prefer-stable": false,

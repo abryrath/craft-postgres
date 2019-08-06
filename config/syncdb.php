@@ -25,7 +25,7 @@ use unionco\craftsyncdb\services\CpService;
             'root' => '/home/abry/Sites/craft-postgres/',
             'backupDirectory' => '/home/abry/Sites/craft-postgres/storage/backups/databases/',
             'port' => 22,
-            'phpPath' => '/usr/local/bin/php',
+            'phpPath' => '/usr/bin/php',
             'dbDumpClientPath' => '/usr/bin/mysqldump',
             // See Symfony\Component\Console\Output\Output for verbosity options
             'verbosity' => Output::VERBOSITY_DEBUG,
