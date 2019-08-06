@@ -1,6 +1,7 @@
 {
     "require": {
         "craftcms/cms": "^3.0.0",
+        "unionco/components": "@dev",
         "unionco/craft-sync-db": "^0.6.2",
         "unionco/syncdb": "@dev",
         "vlucas/phpdotenv": "^2.4.0"
@@ -29,6 +30,10 @@
         {
             "type": "path",
             "url": "../../Library/syncdb"
-        }
+        },
+	{
+	    "type": "path",
+	    "url": "../../Library/craft-components"
+	}
     ]
 }

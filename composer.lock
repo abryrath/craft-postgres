@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "858fae381d630928b51d037a718f1d5c",
+    "content-hash": "1b28ee7b27459af0923c7666bf8a33d9",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -2638,6 +2638,51 @@
             "time": "2019-06-18T15:37:11+00:00"
         },
         {
+            "name": "unionco/components",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "../../Library/craft-components",
+                "reference": "eaaaf2d36d60230ab13cfba00c5078b8c170f201"
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Components",
+                "handle": "components",
+                "changelogUrl": "https://raw.githubusercontent.com/unionco/components/master/CHANGELOG.md",
+                "class": "unionco\\components\\Components"
+            },
+            "autoload": {
+                "psr-4": {
+                    "unionco\\components\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Union",
+                    "homepage": "https://github.com/unionco"
+                }
+            ],
+            "description": "A component library for Craft cms.",
+            "keywords": [
+                "cms",
+                "components",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://github.com/unionco/components/blob/master/README.md",
+                "issues": "https://github.com/unionco/components/issues"
+            }
+        },
+        {
             "name": "unionco/craft-sync-db",
             "version": "v0.6.2",
             "source": {
@@ -3335,6 +3380,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "unionco/components": 20,
         "unionco/syncdb": 20
     },
     "prefer-stable": false,
