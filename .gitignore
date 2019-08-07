@@ -1,6 +1,6 @@
 /.env
 /.idea
-/vendor
+# /vendor
 .DS_Store
 storage/sync*
 web/cpresources/
